@@ -46,3 +46,6 @@ RefactoringAction 1445590457868 PlanetExplorer.java REMOVE facing FIELD
 RefactoringAction 1445590457869 PlanetExplorer.java REMOVE y FIELD
 RefactoringAction 1445590457869 PlanetExplorer.java REMOVE obstacles FIELD
 EditAction 1445590593019 PlanetExplorer.java 1511 2 6 0
+UnitTestCaseAction 1445590594148 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445590594148 TestPlanetExplorer FAIL
+EditAction 1445590625095 PlanetExplorer.java 1523 2 6 0

@@ -34,7 +34,7 @@ public class PlanetExplorer {
 		String position = "";
 		
 		if (facing == 0)
-			position = pos_x + "," + pos_y + "," + "N";
+			position = "(" + pos_x + "," + pos_y + "," + "N" + ")";
 		
 		return position;
 	}

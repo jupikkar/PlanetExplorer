@@ -128,4 +128,14 @@ public class TestPlanetExplorer {
 		//assert
 		assertEquals("(0,0,N)", explorer.executeCommand(""));
 	}
+	
+	@Test
+	public void testMakingExplorerEnterObstacleIn02(){
+		//arrange
+		PlanetExplorer explorer;
+		//act
+		explorer = new PlanetExplorer(3,3,"(0,2)");
+		//assert
+		assertEquals("(0,0,N)(0,2)", explorer.executeCommand("ff"));
+	}
 }

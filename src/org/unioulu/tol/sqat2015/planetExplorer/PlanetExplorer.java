@@ -41,10 +41,11 @@ public class PlanetExplorer {
 		
 		for (char letter : command.toCharArray())
 		{
+			
 			if (letter == 'f') 
 				switch(facing){
 				case 0: 
-					pos_y = moveNorth(pos_y);
+					pos_y++;
 					break;
 				case 1: 
 					pos_x = moveEast(pos_x);

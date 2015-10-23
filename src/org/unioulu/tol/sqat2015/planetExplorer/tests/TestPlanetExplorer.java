@@ -68,4 +68,14 @@ public class TestPlanetExplorer {
 		//assert
 		assertEquals("(1,2,E)", explorer.executeCommand("ffrf"));
 	}
+	
+	@Test
+	public void testGivingExplorerCommandRRRRShouldReturn00N(){
+		//arrange
+		PlanetExplorer explorer;
+		//act
+		explorer = new PlanetExplorer(3,3,"");
+		//assert
+		assertEquals("(0,0,N)", explorer.executeCommand("rrrr"));
+	}
 }

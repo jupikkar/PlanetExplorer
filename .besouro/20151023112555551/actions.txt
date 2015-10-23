@@ -246,3 +246,11 @@ EditAction 1445595326645 PlanetExplorer.java 2553 3 12 0
 UnitTestCaseAction 1445595327782 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445595327783 TestPlanetExplorer OK
 EditAction 1445595368449 PlanetExplorer.java 2560 3 12 0
+RefactoringAction 1445595400823 TestPlanetExplorer.java ADD void testGivingExplorerCommandFFRFShouldReturn12E()/2 METHOD
+RefactoringAction 1445595407342 TestPlanetExplorer.java RENAME testGivingExplorerCommandFFRFShouldReturn12E()/2=>void testGivingExplorerCommandRShouldReturn12E() METHOD
+RefactoringAction 1445595408361 TestPlanetExplorer.java RENAME testGivingExplorerCommandRShouldReturn12E()=>void testGivingExplorerCommandRRShouldReturn12E() METHOD
+RefactoringAction 1445595409380 TestPlanetExplorer.java RENAME testGivingExplorerCommandRRShouldReturn12E()=>void testGivingExplorerCommandRRRShouldReturn12E() METHOD
+RefactoringAction 1445595411399 TestPlanetExplorer.java RENAME testGivingExplorerCommandRRRShouldReturn12E()=>void testGivingExplorerCommandRRRRShouldReturn12E() METHOD
+RefactoringAction 1445595413916 TestPlanetExplorer.java RENAME testGivingExplorerCommandRRRRShouldReturn12E()=>void testGivingExplorerCommandRRRRShouldReturn00() METHOD
+RefactoringAction 1445595414933 TestPlanetExplorer.java RENAME testGivingExplorerCommandRRRRShouldReturn00()=>void testGivingExplorerCommandRRRRShouldReturn00N() METHOD
+EditAction 1445595428863 TestPlanetExplorer.java 1944 7 21 7

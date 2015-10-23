@@ -46,6 +46,6 @@ public class TestPlanetExplorer {
 		//act
 		explorer = new PlanetExplorer(3,3,"");
 		//assert
-		assertEquals("(0,2,N)", explorer.executeCommand("fff"));
+		assertEquals("(0,0,N)", explorer.executeCommand("fff"));
 	}
 }

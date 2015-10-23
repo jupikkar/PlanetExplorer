@@ -17,4 +17,15 @@ public class TestPlanetExplorer {
 		assertEquals("(1,1,N)", explorer.executeCommand(""));
 		
 	}
+	
+	@Test
+	public void testCreatingPlanetExplorerWith3x3GridCommandFShouldReturn10N() {
+		//arrange
+		PlanetExplorer explorer;
+		//act
+		explorer = new PlanetExplorer(3,3,"");
+		//assert
+		assertEquals("(1,0,N)", explorer.executeCommand(""));
+		
+	}
 }

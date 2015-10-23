@@ -25,6 +25,6 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		return "(1,1,N);
+		return "(1,1,N)";
 	}
 }

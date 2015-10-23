@@ -29,6 +29,13 @@ public class TestPlanetExplorer {
 		
 	}
 	
-//	@Test
-//	public void testGivingExplorerCommandFFShouldReturn
+	@Test
+	public void testGivingExplorerCommandFFShouldReturn02N(){
+		//arrange
+		PlanetExplorer explorer;
+		//act
+		explorer = new PlanetExplorer(3,3,"");
+		//assert
+		assertEquals("(0,2,N)", explorer.executeCommand("ff"));
+	}
 }

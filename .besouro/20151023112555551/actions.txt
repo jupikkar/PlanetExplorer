@@ -88,3 +88,13 @@ RefactoringAction 1445591027804 TestPlanetExplorer.java RENAME testGivingExplore
 RefactoringAction 1445591030317 TestPlanetExplorer.java RENAME testGivingExplorerCommandFFShould=>void testGivingExplorerCommandFFShouldReturn FIELD
 EditAction 1445591088279 PlanetExplorer.java 1575 2 7 0
 EditAction 1445591088460 TestPlanetExplorer.java 807 2 6 2
+CompilationAction 1445591088603 TestPlanetExplorer.java
+CompilationAction 1445591088603 TestPlanetExplorer.java
+CompilationAction 1445591088603 TestPlanetExplorer.java
+RefactoringAction 1445591095478 TestPlanetExplorer.java REMOVE testGivingExplorerCommandFFShouldReturn FIELD
+CompilationAction 1445591097645 TestPlanetExplorer.java
+CompilationAction 1445591097645 TestPlanetExplorer.java
+CompilationAction 1445591097646 TestPlanetExplorer.java
+UnitTestCaseAction 1445591098768 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445591098769 TestPlanetExplorer FAIL
+EditAction 1445591113350 PlanetExplorer.java 1575 2 7 0

@@ -29,6 +29,6 @@ public class TestPlanetExplorer {
 		
 	}
 	
-	@Test
-	public void testGivingExplorerCommandFFShouldReturn
+//	@Test
+//	public void testGivingExplorerCommandFFShouldReturn
 }

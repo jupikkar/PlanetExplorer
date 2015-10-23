@@ -33,8 +33,8 @@ public class PlanetExplorer {
 		
 		String position = "";
 		
-		if (command == "f")
-			pos_y--;
+//		if (command == "f")
+//			pos_y--;
 		
 		if (facing == 0)
 			position = "(" + pos_x + "," + pos_y + "," + "N" + ")";

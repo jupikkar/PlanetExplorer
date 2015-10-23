@@ -50,6 +50,7 @@ public class PlanetExplorer {
 					else
 						pos_y = 0;
 					break;
+					
 				case 1: 
 					pos_x++;
 					break;

@@ -278,3 +278,6 @@ RefactoringAction 1445595698682 TestPlanetExplorer.java ADD void testGivingExplo
 RefactoringAction 1445595704202 TestPlanetExplorer.java RENAME testGivingExplorerCommandRFFFShouldReturn00E()/2=>void testGivingExplorerCommandLFFFShouldReturn00E() METHOD
 RefactoringAction 1445595711743 TestPlanetExplorer.java RENAME testGivingExplorerCommandLFFFShouldReturn00E()=>void testGivingExplorerCommandLFFFShouldReturn00W() METHOD
 EditAction 1445595719264 TestPlanetExplorer.java 2670 10 30 10
+UnitTestCaseAction 1445595720428 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445595720429 TestPlanetExplorer FAIL
+EditAction 1445595785472 PlanetExplorer.java 2827 3 12 0

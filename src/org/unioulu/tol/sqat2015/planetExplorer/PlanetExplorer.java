@@ -60,13 +60,13 @@ public class PlanetExplorer {
 					if (pos_y > 0)
 						pos_y--;
 					else
-						pos_y = this.y;
+						pos_y = this.y-1;
 					break;
 				case 3: 
 					if (pos_x > 0)
 						pos_x--;
 					else
-						pos_x = this.x;
+						pos_x = this.x-1;
 					break;
 				}
 			

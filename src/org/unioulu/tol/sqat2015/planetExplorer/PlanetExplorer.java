@@ -43,17 +43,33 @@ public class PlanetExplorer {
 		{
 			if (letter == 'f') 
 				switch(getFacing(facing)){
-				case "N": pos_y++;
-				case "E": pos_x++;
-				case "S": pos_y--;
-				case "W": pos_y--;
+				case "N": 
+					pos_y++;
+					break;
+				case "E": 
+					pos_x++;
+					break;
+				case "S": 
+					pos_y--;
+					break;
+				case "W": 
+					pos_y--;
+					break;
 				}
 			else if (letter == 'b') 
 				switch(getFacing(facing)){
-				case "N": pos_y--;
-				case "E": pos_x--;
-				case "S": pos_y++;
-				case "W": pos_y++;
+				case "N": 
+					pos_y--;
+					break;
+				case "E": 
+					pos_x--;
+					break;
+				case "S": 
+					pos_y++;
+					break;
+				case "W": 
+					pos_y++;
+					break;
 				}
 			else if (letter == 'r')
 				facing++;
@@ -86,12 +102,3 @@ public class PlanetExplorer {
 		}	
 		return facing;
 	}
-	
-	private void move(int facing, char direction){
-		
-	}
-	
-	private void turn(int facing, char direction) {
-		
-	}
-}

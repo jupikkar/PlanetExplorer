@@ -8,7 +8,7 @@ import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer;
 public class TestPlanetExplorer {
 
 	@Test
-	public void testCreatingPlanetExplorerWith3x3GridNoCommandShouldReturn11N() {
+	public void testCreatingPlanetExplorerWith3x3GridNoCommandShouldReturn00N() {
 		//arrange
 		PlanetExplorer explorer;
 		//act

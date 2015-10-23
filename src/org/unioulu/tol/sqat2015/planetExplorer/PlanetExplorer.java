@@ -37,7 +37,7 @@ public class PlanetExplorer {
 			pos_y--;
 		
 		if (facing == 0)
-			position = "(" + pos_x + "," + pos_y + "," + "N" + ")";
+			position = "(" + pos_y + "," + pos_x + "," + "N" + ")";
 		
 		return position;
 	}

@@ -36,7 +36,7 @@ public class PlanetExplorer {
 		for (char letter : command.toCharArray())
 		{
 			if (letter == 'f')
-				pos_y--;
+				pos_y++;
 		}
 		
 		if (facing == 0)

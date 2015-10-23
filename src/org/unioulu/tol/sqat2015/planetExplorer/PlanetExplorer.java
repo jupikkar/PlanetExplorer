@@ -33,8 +33,11 @@ public class PlanetExplorer {
 		
 		String position = "";
 		
-		if (command == "f")
-			pos_y++;
+		for (char letter : command.toCharArray())
+		{
+			if (letter == 'f')
+				pos_y--;
+		}
 		
 		if (facing == 0)
 			position = "(" + pos_x + "," + pos_y + "," + "N" + ")";

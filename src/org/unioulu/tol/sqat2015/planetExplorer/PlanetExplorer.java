@@ -3,9 +3,20 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID:
 // Finish time:
+
 public class PlanetExplorer {
 	
 	private int x,y;
+	
+//	public enum Facing{
+//		N(0), E(1), S(2), W(3);
+//		
+//		private int direction;
+//		
+//		private Facing(int direction){
+//			this.direction = direction;
+//		}
+//	}
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -48,9 +59,30 @@ public class PlanetExplorer {
 			}
 		}
 		
-		if (facing == 0)
-			position = "(" + pos_x + "," + pos_y + "," + "N" + ")";
+		position = "(" + pos_x + "," + pos_y + "," + getFacing(facing) + ")";
 		
 		return position;
+	}
+	
+	public String getFacing(int direction){
+		
+		String facing = "";
+		
+		switch (direction){
+			case 0:
+				facing = "N";
+				break;
+			case 1:
+				facing = "E";
+				break;
+			case 2:
+				facing = "S";
+				break;
+			case 3:
+				facing = "W";
+				break;
+		}
+				
+		return facing;
 	}
 }

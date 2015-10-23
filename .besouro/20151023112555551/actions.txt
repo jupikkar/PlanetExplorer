@@ -125,3 +125,36 @@ EditAction 1445591535141 PlanetExplorer.java 1748 2 9 0
 UnitTestCaseAction 1445591536881 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445591536881 TestPlanetExplorer FAIL
 EditAction 1445591546994 TestPlanetExplorer.java 1220 4 12 4
+UnitTestCaseAction 1445591548027 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445591548028 TestPlanetExplorer OK
+RefactoringAction 1445591573602 PlanetExplorer.java REMOVE x FIELD
+RefactoringAction 1445591573602 PlanetExplorer.java REMOVE y FIELD
+RefactoringAction 1445591575617 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1445591575618 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1445591814272 PlanetExplorer.java ADD Facing N FIELD
+RefactoringAction 1445591816288 PlanetExplorer.java ADD Facing E FIELD
+RefactoringAction 1445591821306 PlanetExplorer.java ADD Facing S FIELD
+RefactoringAction 1445591822323 PlanetExplorer.java ADD Facing W FIELD
+RefactoringAction 1445591867634 Facing.java ADD Facing.java CLASS
+RefactoringAction 1445592036838 Facing.java REMOVE Facing.java CLASS
+RefactoringAction 1445592070464 PlanetExplorer.java ADD int direction FIELD
+RefactoringAction 1445592084001 PlanetExplorer.java ADD Facing() METHOD
+RefactoringAction 1445592084001 PlanetExplorer.java ADD void PlanetExplorer(int, int, String) METHOD
+RefactoringAction 1445592084002 PlanetExplorer.java ADD String executeCommand(String) METHOD
+RefactoringAction 1445592090039 PlanetExplorer.java RENAME Facing()=>Facing(int) METHOD
+RefactoringAction 1445592094558 PlanetExplorer.java ADD PlanetExplorer(int, int, String) METHOD
+RefactoringAction 1445592094559 PlanetExplorer.java ADD String executeCommand(String) METHOD
+RefactoringAction 1445592284401 PlanetExplorer.java RENAME Facing(int)=>Facing() METHOD
+RefactoringAction 1445592411847 PlanetExplorer.java RENAME Facing()=>Facing(int) METHOD
+RefactoringAction 1445592482576 PlanetExplorer.java ADD string get FIELD
+RefactoringAction 1445592493107 PlanetExplorer.java RENAME get=>String getFacing() METHOD
+RefactoringAction 1445592508690 PlanetExplorer.java RENAME getFacing()=>String getFacing(int) METHOD
+UnitTestCaseAction 1445592842869 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445592842870 TestPlanetExplorer OK
+RefactoringAction 1445592856081 TestPlanetExplorer.java ADD void testGivingExplorerCommandFFFShouldReturn00N()/2 METHOD
+RefactoringAction 1445592862598 TestPlanetExplorer.java RENAME testGivingExplorerCommandFFFShouldReturn00N()/2=>void testGivingExplorerCommandRShouldReturn00N() METHOD
+RefactoringAction 1445592874152 TestPlanetExplorer.java RENAME testGivingExplorerCommandRShouldReturn00N()=>void testGivingExplorerCommandGRShouldReturn00N() METHOD
+RefactoringAction 1445592882168 TestPlanetExplorer.java RENAME testGivingExplorerCommandGRShouldReturn00N()=>void testGivingExplorerCommandFFRShouldReturn00N() METHOD
+RefactoringAction 1445592892186 TestPlanetExplorer.java RENAME testGivingExplorerCommandFFRShouldReturn00N()=>void testGivingExplorerCommandFFRShouldReturn02() METHOD
+RefactoringAction 1445592893202 TestPlanetExplorer.java RENAME testGivingExplorerCommandFFRShouldReturn02()=>void testGivingExplorerCommandFFRShouldReturn02E() METHOD
+EditAction 1445592910526 TestPlanetExplorer.java 1460 5 15 5

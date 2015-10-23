@@ -123,4 +123,8 @@ public class PlanetExplorer {
 		}	
 		return facing;
 	}
+	
+	public String getCurrentPosition(){
+		return "";
+	}
 }

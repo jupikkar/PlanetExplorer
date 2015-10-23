@@ -307,3 +307,8 @@ UnitTestSessionAction 1445596135684 TestPlanetExplorer OK
 RefactoringAction 1445596169587 TestPlanetExplorer.java ADD void testMakingExplorerWithObstacleIn02()/2 METHOD
 RefactoringAction 1445596176110 TestPlanetExplorer.java RENAME testMakingExplorerWithObstacleIn02()/2=>void testMakingExplorerEnterObstacleIn02() METHOD
 EditAction 1445596202331 TestPlanetExplorer.java 3394 13 39 13
+UnitTestCaseAction 1445596203776 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445596203777 TestPlanetExplorer FAIL
+RefactoringAction 1445596246123 PlanetExplorer.java ADD String getCurrentPosition FIELD
+RefactoringAction 1445596255139 PlanetExplorer.java RENAME getCurrentPosition=>String getCurrentPosition() METHOD
+EditAction 1445596263414 PlanetExplorer.java 2886 4 13 0

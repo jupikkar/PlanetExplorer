@@ -208,3 +208,6 @@ RefactoringAction 1445594506070 PlanetExplorer.java RENAME moveNorth()/3=>int mo
 RefactoringAction 1445594509590 PlanetExplorer.java RENAME moveNorth()/2=>int moveWest() METHOD
 RefactoringAction 1445594609408 PlanetExplorer.java RENAME moveNorth()=>int moveNorth(int) METHOD
 EditAction 1445594646725 PlanetExplorer.java 2804 7 16 0
+UnitTestCaseAction 1445594647886 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445594647886 TestPlanetExplorer FAIL
+EditAction 1445594676673 PlanetExplorer.java 2804 7 16 0

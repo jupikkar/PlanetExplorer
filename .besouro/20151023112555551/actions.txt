@@ -262,3 +262,10 @@ UnitTestSessionAction 1445595490456 TestPlanetExplorer OK
 RefactoringAction 1445595498080 TestPlanetExplorer.java ADD void testGivingExplorerCommandRRRRShouldReturn00N()/2 METHOD
 RefactoringAction 1445595504116 TestPlanetExplorer.java RENAME testGivingExplorerCommandRRRRShouldReturn00N()/2=>void testGivingExplorerCommandLLLLShouldReturn00N() METHOD
 EditAction 1445595512039 TestPlanetExplorer.java 2186 8 24 8
+UnitTestCaseAction 1445595513065 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445595513066 TestPlanetExplorer OK
+RefactoringAction 1445595531902 TestPlanetExplorer.java ADD void testGivingExplorerCommandLLLLShouldReturn00N()/2 METHOD
+RefactoringAction 1445595538923 TestPlanetExplorer.java RENAME testGivingExplorerCommandLLLLShouldReturn00N()/2=>void testGivingExplorerCommandRShouldReturn00N() METHOD
+RefactoringAction 1445595541443 TestPlanetExplorer.java RENAME testGivingExplorerCommandRShouldReturn00N()=>void testGivingExplorerCommandRFFFShouldReturn00N() METHOD
+RefactoringAction 1445595546962 TestPlanetExplorer.java RENAME testGivingExplorerCommandRFFFShouldReturn00N()=>void testGivingExplorerCommandRFFFShouldReturn00E() METHOD
+EditAction 1445595559124 TestPlanetExplorer.java 2428 9 27 9

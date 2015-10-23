@@ -103,10 +103,10 @@ public class PlanetExplorer {
 	}
 	
 	private int moveNorth(int pos_y){
-		if(pos_y < this.y-1)
+//		if(pos_y < this.y-1)
 			return pos_y++;
-		else
-			return 0;
+//		else
+//			return 0;
 	}
 	private int moveEast(int pos_x){
 		if(pos_x < this.x-1)

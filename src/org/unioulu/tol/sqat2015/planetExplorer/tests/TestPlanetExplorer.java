@@ -38,4 +38,14 @@ public class TestPlanetExplorer {
 		//assert
 		assertEquals("(0,2,N)", explorer.executeCommand("ff"));
 	}
+	
+	@Test
+	public void testGivingExplorerCommandFFFShouldReturn00N(){
+		//arrange
+		PlanetExplorer explorer;
+		//act
+		explorer = new PlanetExplorer(3,3,"");
+		//assert
+		assertEquals("(0,2,N)", explorer.executeCommand("fff"));
+	}
 }

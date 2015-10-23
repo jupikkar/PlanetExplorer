@@ -30,3 +30,12 @@ RefactoringAction 1445589979491 TestPlanetExplorer.java RENAME testCreatingPlane
 RefactoringAction 1445589982009 TestPlanetExplorer.java RENAME testCreatingPlanetExplorerWith3x3GridCommandShouldReturn11N()=>void testCreatingPlanetExplorerWith3x3GridCommandFShouldReturn11N() METHOD
 RefactoringAction 1445589985026 TestPlanetExplorer.java RENAME testCreatingPlanetExplorerWith3x3GridCommandFShouldReturn11N()=>void testCreatingPlanetExplorerWith3x3GridCommandFShouldReturn10N() METHOD
 EditAction 1445590012586 TestPlanetExplorer.java 741 2 6 2
+UnitTestCaseAction 1445590013813 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445590013813 TestPlanetExplorer FAIL
+RefactoringAction 1445590111892 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1445590117918 PlanetExplorer.java REMOVE x FIELD
+RefactoringAction 1445590131956 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1445590134965 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1445590139978 PlanetExplorer.java ADD String obstacles FIELD
+RefactoringAction 1445590228267 PlanetExplorer.java ADD int facing FIELD
+EditAction 1445590420932 PlanetExplorer.java 1601 2 7 0

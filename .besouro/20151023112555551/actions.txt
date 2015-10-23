@@ -87,3 +87,4 @@ RefactoringAction 1445591024290 TestPlanetExplorer.java RENAME testCreatingPlane
 RefactoringAction 1445591027804 TestPlanetExplorer.java RENAME testGivingExplorer=>void testGivingExplorerCommandFFShould FIELD
 RefactoringAction 1445591030317 TestPlanetExplorer.java RENAME testGivingExplorerCommandFFShould=>void testGivingExplorerCommandFFShouldReturn FIELD
 EditAction 1445591088279 PlanetExplorer.java 1575 2 7 0
+EditAction 1445591088460 TestPlanetExplorer.java 807 2 6 2

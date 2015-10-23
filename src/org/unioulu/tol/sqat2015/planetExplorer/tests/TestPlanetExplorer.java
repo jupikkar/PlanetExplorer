@@ -14,7 +14,7 @@ public class TestPlanetExplorer {
 		//act
 		explorer = new PlanetExplorer(3,3,"");
 		//assert
-		assertEquals("(1,1,N)", explorer.executeCommand(""));
+		assertEquals("(0,0,N)", explorer.executeCommand(""));
 		
 	}
 	
@@ -28,4 +28,7 @@ public class TestPlanetExplorer {
 		assertEquals("(0,1,N)", explorer.executeCommand("f"));
 		
 	}
+	
+	@Test
+	public void testGivingExplorerCommandFFShouldReturn
 }

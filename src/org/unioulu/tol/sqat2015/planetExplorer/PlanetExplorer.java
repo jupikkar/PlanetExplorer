@@ -50,15 +50,23 @@ public class PlanetExplorer {
 					else
 						pos_y = 0;
 					break;
-					
 				case 1: 
-					pos_x++;
+					if (pos_x < this.y-1)
+						pos_x++;
+					else
+						pos_x = 0;
 					break;
 				case 2: 
-					pos_y--;
+					if (pos_y > 0)
+						pos_y--;
+					else
+						pos_y = this.y;
 					break;
 				case 3: 
-					pos_x--;
+					if (pos_x > 0)
+						pos_x--;
+					else
+						pos_x = this.x;
 					break;
 				}
 			

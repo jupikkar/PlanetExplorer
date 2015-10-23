@@ -269,3 +269,6 @@ RefactoringAction 1445595538923 TestPlanetExplorer.java RENAME testGivingExplore
 RefactoringAction 1445595541443 TestPlanetExplorer.java RENAME testGivingExplorerCommandRShouldReturn00N()=>void testGivingExplorerCommandRFFFShouldReturn00N() METHOD
 RefactoringAction 1445595546962 TestPlanetExplorer.java RENAME testGivingExplorerCommandRFFFShouldReturn00N()=>void testGivingExplorerCommandRFFFShouldReturn00E() METHOD
 EditAction 1445595559124 TestPlanetExplorer.java 2428 9 27 9
+UnitTestCaseAction 1445595560243 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445595560243 TestPlanetExplorer FAIL
+EditAction 1445595676551 PlanetExplorer.java 2823 3 12 0

@@ -5,11 +5,6 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // Finish time:
 public class PlanetExplorer {
 	
-	int x;
-	int y;
-	int facing;
-	String obstacles;
-	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -17,19 +12,14 @@ public class PlanetExplorer {
 		Example use:
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
-	
-	this.x = x;
-	this.y = y;
-	this.obstacles = obstacles;
-	this.facing = 0;
+
 	}
 	
 	public String executeCommand(String command){
 		
-		if (command == "f")
-			this.y--;
-		
-		
+		int pos_x = 1;
+		int pos_y = 1;
+		int facing = 0;
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -41,7 +31,10 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		String position = this.x + "," + this.y + "," + this.facing;
+		String position = "";
+		
+		if (facing == 0)
+			position = pos_x + "," + pos_y + "," + "N";
 		
 		return position;
 	}

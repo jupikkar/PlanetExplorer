@@ -39,3 +39,10 @@ RefactoringAction 1445590134965 PlanetExplorer.java ADD int y FIELD
 RefactoringAction 1445590139978 PlanetExplorer.java ADD String obstacles FIELD
 RefactoringAction 1445590228267 PlanetExplorer.java ADD int facing FIELD
 EditAction 1445590420932 PlanetExplorer.java 1601 2 7 0
+UnitTestCaseAction 1445590422135 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445590422136 TestPlanetExplorer FAIL
+RefactoringAction 1445590457867 PlanetExplorer.java REMOVE x FIELD
+RefactoringAction 1445590457868 PlanetExplorer.java REMOVE facing FIELD
+RefactoringAction 1445590457869 PlanetExplorer.java REMOVE y FIELD
+RefactoringAction 1445590457869 PlanetExplorer.java REMOVE obstacles FIELD
+EditAction 1445590593019 PlanetExplorer.java 1511 2 6 0

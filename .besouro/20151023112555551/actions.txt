@@ -314,3 +314,5 @@ RefactoringAction 1445596255139 PlanetExplorer.java RENAME getCurrentPosition=>S
 EditAction 1445596263414 PlanetExplorer.java 2886 4 13 0
 RefactoringAction 1445596318313 PlanetExplorer.java RENAME getCurrentPosition()=>String getCurrentPosition(int, int, int) METHOD
 EditAction 1445596348525 PlanetExplorer.java 2938 4 13 0
+UnitTestCaseAction 1445596349674 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445596349674 TestPlanetExplorer FAIL

@@ -79,10 +79,16 @@ public class PlanetExplorer {
 				}
 			
 			else if (letter == 'r')
-				facing++;
+				if (facing < 3)
+					facing++;
+				else
+					facing = 0;
 			
 			else if (letter == 'l')
-				facing--;
+				if (facing > 0)
+					facing--;
+				else
+					facing = 3;
 		}
 		position = "(" + pos_x + "," + pos_y + "," + getFacing(facing) + ")";
 		

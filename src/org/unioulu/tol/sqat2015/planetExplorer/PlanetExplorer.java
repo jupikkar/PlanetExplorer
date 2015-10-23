@@ -8,16 +8,6 @@ public class PlanetExplorer {
 	
 	private int x,y;
 	
-//	public enum Facing{
-//		N(0), E(1), S(2), W(3);
-//		
-//		private int direction;
-//		
-//		private Facing(int direction){
-//			this.direction = direction;
-//		}
-//	}
-	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -51,24 +41,32 @@ public class PlanetExplorer {
 		
 		for (char letter : command.toCharArray())
 		{
-			if (letter == 'f'){
-				if (pos_y == this.y-1)
-					pos_y = 0;
-				else
-					pos_y++;
-			}
-			
-			if (letter == 'r')
-				if (facing < 3)
-					facing++;
+			if (letter == 'f') 
+				switch(getFacing(facing)){
+				case "N": pos_y++;
+				case "E": pos_x++;
+				case "S": pos_y--;
+				case "W": pos_y--;
+				}
+			else if (letter == 'b') 
+				switch(getFacing(facing)){
+				case "N": pos_y--;
+				case "E": pos_x--;
+				case "S": pos_y++;
+				case "W": pos_y++;
+				}
+			else if (letter == 'r')
+				facing++;
+			else if (letter == 'l')
+				facing--;
 		}
 		
 		position = "(" + pos_x + "," + pos_y + "," + getFacing(facing) + ")";
 		
 		return position;
 	}
-	
-	public String getFacing(int direction){
+
+	private String getFacing(int direction){
 		
 		String facing = "";
 		
@@ -85,8 +83,15 @@ public class PlanetExplorer {
 			case 3:
 				facing = "W";
 				break;
-		}
-				
+		}	
 		return facing;
+	}
+	
+	private void move(int facing, char direction){
+		
+	}
+	
+	private void turn(int facing, char direction) {
+		
 	}
 }

@@ -25,7 +25,7 @@ public class TestPlanetExplorer {
 		//act
 		explorer = new PlanetExplorer(3,3,"");
 		//assert
-		assertEquals("(1,0,N)", explorer.executeCommand(""));
+		assertEquals("(1,0,N)", explorer.executeCommand("f"));
 		
 	}
 }

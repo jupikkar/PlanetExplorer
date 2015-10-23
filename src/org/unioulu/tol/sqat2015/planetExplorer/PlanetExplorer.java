@@ -57,6 +57,10 @@ public class PlanetExplorer {
 				else
 					pos_y++;
 			}
+			
+			if (letter == 'r')
+				if (facing < 3)
+					facing++;
 		}
 		
 		position = "(" + pos_x + "," + pos_y + "," + getFacing(facing) + ")";

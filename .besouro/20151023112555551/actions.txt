@@ -79,3 +79,11 @@ UnitTestCaseAction 1445590877035 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445590877036 TestPlanetExplorer OK
 EditAction 1445590935251 PlanetExplorer.java 1575 2 7 0
 EditAction 1445590935431 TestPlanetExplorer.java 742 2 6 2
+UnitTestCaseAction 1445590936513 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445590936514 TestPlanetExplorer OK
+RefactoringAction 1445590998758 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1445591019774 TestPlanetExplorer.java RENAME test=>void testCreatingPlanet FIELD
+RefactoringAction 1445591024290 TestPlanetExplorer.java RENAME testCreatingPlanet=>void testGivingExplorer FIELD
+RefactoringAction 1445591027804 TestPlanetExplorer.java RENAME testGivingExplorer=>void testGivingExplorerCommandFFShould FIELD
+RefactoringAction 1445591030317 TestPlanetExplorer.java RENAME testGivingExplorerCommandFFShould=>void testGivingExplorerCommandFFShouldReturn FIELD
+EditAction 1445591088279 PlanetExplorer.java 1575 2 7 0

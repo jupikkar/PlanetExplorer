@@ -98,7 +98,7 @@ public class PlanetExplorer {
 				else
 					facing = 3;
 		}
-		position = "(" + pos_x + "," + pos_y + "," + getFacing(facing) + ")";
+		position = getCurrentPosition(pos_x,pos_y,facing);
 		
 		return position;
 	}
@@ -124,7 +124,7 @@ public class PlanetExplorer {
 		return facing;
 	}
 	
-	public String getCurrentPosition(){
-		return "";
+	public String getCurrentPosition(int x, int y, int facing){
+		return "(" + x + "," + y + "," + getFacing(facing) + ")";
 	}
 }

@@ -312,3 +312,5 @@ UnitTestSessionAction 1445596203777 TestPlanetExplorer FAIL
 RefactoringAction 1445596246123 PlanetExplorer.java ADD String getCurrentPosition FIELD
 RefactoringAction 1445596255139 PlanetExplorer.java RENAME getCurrentPosition=>String getCurrentPosition() METHOD
 EditAction 1445596263414 PlanetExplorer.java 2886 4 13 0
+RefactoringAction 1445596318313 PlanetExplorer.java RENAME getCurrentPosition()=>String getCurrentPosition(int, int, int) METHOD
+EditAction 1445596348525 PlanetExplorer.java 2938 4 13 0

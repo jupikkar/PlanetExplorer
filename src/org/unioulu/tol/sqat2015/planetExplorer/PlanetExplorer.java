@@ -5,6 +5,8 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // Finish time:
 public class PlanetExplorer {
 	
+	private int x,y;
+	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -12,6 +14,9 @@ public class PlanetExplorer {
 		Example use:
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
+		
+	this.x = x;
+	this.y = y;
 
 	}
 	
@@ -35,8 +40,12 @@ public class PlanetExplorer {
 		
 		for (char letter : command.toCharArray())
 		{
-			if (letter == 'f')
-				pos_y++;
+			if (letter == 'f'){
+				if (pos_y == this.y-1)
+					pos_y = 0;
+				else
+					pos_y++;
+			}
 		}
 		
 		if (facing == 0)

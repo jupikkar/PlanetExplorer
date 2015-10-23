@@ -234,3 +234,12 @@ EditAction 1445595141821 PlanetExplorer.java 2969 7 16 0
 UnitTestCaseAction 1445595142856 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445595142857 TestPlanetExplorer FAIL
 EditAction 1445595196372 PlanetExplorer.java 2957 7 16 0
+UnitTestCaseAction 1445595197586 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445595197586 TestPlanetExplorer FAIL
+RefactoringAction 1445595253860 PlanetExplorer.java REMOVE moveWest(int) METHOD
+RefactoringAction 1445595253861 PlanetExplorer.java REMOVE moveNorth(int) METHOD
+RefactoringAction 1445595253861 PlanetExplorer.java REMOVE moveEast(int) METHOD
+RefactoringAction 1445595253862 PlanetExplorer.java REMOVE moveSouth(int) METHOD
+UnitTestCaseAction 1445595256625 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445595256625 TestPlanetExplorer FAIL
+EditAction 1445595326645 PlanetExplorer.java 2553 3 12 0

@@ -44,19 +44,23 @@ public class PlanetExplorer {
 			
 			if (letter == 'f') 
 				switch(facing){
-				case 0: 
-					pos_y++;
+				case 0:
+					if (pos_y < this.y-1)
+						pos_y++;
+					else
+						pos_y = 0;
 					break;
 				case 1: 
-					pos_x = moveEast(pos_x);
+					pos_x++;
 					break;
 				case 2: 
-					pos_y = moveSouth(pos_y);
+					pos_y--;
 					break;
 				case 3: 
-					pos_x = moveWest(pos_x);
+					pos_x--;
 					break;
 				}
+			
 			else if (letter == 'b') 
 				switch(getFacing(facing)){
 				case "N": 
@@ -72,8 +76,10 @@ public class PlanetExplorer {
 					pos_y++;
 					break;
 				}
+			
 			else if (letter == 'r')
 				facing++;
+			
 			else if (letter == 'l')
 				facing--;
 		}
@@ -101,30 +107,5 @@ public class PlanetExplorer {
 				break;
 		}	
 		return facing;
-	}
-	
-	private int moveNorth(int pos_y){
-//		if(pos_y < this.y-1)
-			return pos_y++;
-//		else
-//			return 0;
-	}
-	private int moveEast(int pos_x){
-		if(pos_x < this.x-1)
-			return pos_x++;
-		else
-			return 0;
-	}
-	private int moveSouth(int pos_y){
-		if(pos_y > 0)
-			return pos_y--;
-		else
-			return this.y;
-	}
-	private int moveWest(int pos_x){
-		if(pos_x > 0)
-			return pos_x--;
-		else
-			return this.x;
 	}
 }

@@ -42,21 +42,20 @@ public class PlanetExplorer {
 		for (char letter : command.toCharArray())
 		{
 			if (letter == 'f') 
-				switch(getFacing(facing)){
-				case "N": 
+				switch(facing){
+				case 0: 
 					pos_y = moveNorth(pos_y);
 					break;
-				case "E": 
+				case 1: 
 					pos_x = moveEast(pos_x);
 					break;
-				case "S": 
+				case 2: 
 					pos_y = moveSouth(pos_y);
 					break;
-				case "W": 
+				case 3: 
 					pos_x = moveWest(pos_x);
 					break;
 				}
-			
 			else if (letter == 'b') 
 				switch(getFacing(facing)){
 				case "N": 
@@ -77,7 +76,6 @@ public class PlanetExplorer {
 			else if (letter == 'l')
 				facing--;
 		}
-		
 		position = "(" + pos_x + "," + pos_y + "," + getFacing(facing) + ")";
 		
 		return position;

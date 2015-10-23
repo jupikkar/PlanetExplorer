@@ -47,13 +47,13 @@ public class PlanetExplorer {
 					pos_y = moveNorth(pos_y);
 					break;
 				case "E": 
-					pos_x = moveEast();
+					pos_x = moveEast(pos_x);
 					break;
 				case "S": 
-					pos_y = moveSouth();
+					pos_y = moveSouth(pos_y);
 					break;
 				case "W": 
-					pos_y = moveWest();
+					pos_x = moveWest(pos_x);
 					break;
 				}
 			
@@ -110,13 +110,22 @@ public class PlanetExplorer {
 		else
 			return 0;
 	}
-	private int moveEast(){
-		return 0;
+	private int moveEast(int pos_x){
+		if(pos_x < this.x-1)
+			return pos_x++;
+		else
+			return 0;
 	}
-	private int moveSouth(){
-		return 0;
+	private int moveSouth(int pos_y){
+		if(pos_y > 0)
+			return pos_y--;
+		else
+			return this.y;
 	}
-	private int moveWest(){
-		return 0;
+	private int moveWest(int pos_x){
+		if(pos_x > 0)
+			return pos_x--;
+		else
+			return this.x;
 	}
 }

@@ -23,9 +23,9 @@ public class PlanetExplorer {
 	
 	public String executeCommand(String command){
 		
-		Integer pos_x = 0;
-		Integer pos_y = 0;
-		Integer facing = 0;
+		int pos_x = 0;
+		int pos_y = 0;
+		int facing = 0;
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
